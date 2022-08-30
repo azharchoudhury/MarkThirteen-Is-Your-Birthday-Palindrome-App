@@ -129,23 +129,20 @@ function getPalindromeForNextDate(date) {
 function clickHandler() {
     var bdayInput = inputDate.value;
 
-    if(bdayInput != ''){
+    if (bdayInput != '') {
         var listOfDates = bdayInput.split('-');
         var dateInput = {
-            day : Number(listOfDates[2]),
-            month : Number(listOfDates[1]),
-            year : Number(listOfDates[0])
+            day: Number(listOfDates[2]),
+            month: Number(listOfDates[1]),
+            year: Number(listOfDates[0])
         }
         var isPalindrome = checkPalindromeForAllDateFormats(dateInput);
-        if(isPalindrome){
+        if (isPalindrome) {
             outputDiv.innerText = "Yayyy!! Your birthday is palindrome 🥳🥳";
-        }
-        else{
+        } else {
             var [ctr, nextDate] = getPalindromeForNextDate(dateInput);
             outputDiv.innerText = `Ooooooopsss!! \nYou missed the palindrome by ${ctr} days.\n The next palindrome is on ${nextDate.day}-${nextDate.month}-${nextDate.year} 🙁🙁`;
         }
-    }
-    else{
 
     }
 }
