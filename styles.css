@@ -1,0 +1,26 @@
+body{
+    background-color: #991b1b;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    margin: 4rem 0;
+    font-size: 3rem;
+}
+
+#input-date{
+    padding: 0.5rem;
+}
+
+#check-btn{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+}
+
+#output-div{
+    max-width: 60%;
+    margin: 3rem auto;
+    font-size: 1.5rem;
+}
