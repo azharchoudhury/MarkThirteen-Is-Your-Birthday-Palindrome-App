@@ -145,6 +145,10 @@ function clickHandler() {
         }
 
     }
+    else
+    {
+        outputDiv.innerText = "Buddy!! you must have forgotten to enter the date before clicking the button 😅";
+    }
 }
 
 //2022', '08', '02
