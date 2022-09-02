@@ -38,6 +38,8 @@ h1 {
     display: block;
     margin: 1rem auto;
     padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: #f0f9ff;
 }
 
 #output-div {
