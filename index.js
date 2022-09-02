@@ -169,6 +169,6 @@ checkBtn.addEventListener('click', clickHandler);
 
 /*
 List of functions we have:-
-reversestring(str),   checkPalindrome(text),        convertDateToString(date),  getAllDateFormats(date)
+reversestring(str),   checkPalindrome(text),    convertDateToString(date),  getAllDateFormats(date)           checkPalindromeForAllDateFormats(date),       getNextDate(date),      checkLeapYear(year)     getNextDate(date)       clickHandler()
 */
 // console.log(convertDateToString(myDate));
